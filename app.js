@@ -15,7 +15,7 @@ ddoc.views = {episodes: {map: function (doc) {
   if (doc._attachments) {
     emit(doc.published, 1);
   }
-}}}
+}}};
 
 ddoc.validate_doc_update = function (newDoc, oldDoc, userCtx) {   
   if (newDoc._deleted === true && userCtx.roles.indexOf('_admin') === -1) {     

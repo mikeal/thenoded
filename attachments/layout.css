@@ -1,3 +1,189 @@
-html {font: normal 110% OFL Sorts Mill GoudyRegular;}
+/* line 14, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
 
-div.spacer {clear:both;}
+/* line 17, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+}
+
+/* line 19, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 21, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+
+/* line 23, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 25, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: "" "";
+}
+/* line 96, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+}
+
+/* line 27, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 107, ../../../../.rvm/rubies/ruby-1.8.7-p249/lib/ruby/gems/1.8/gems/compass-0.10.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 5, ../src/screen.sass */
+body {
+  background: #fafafa;
+  color: #444444;
+  font-family: Georgia, "Droid Serif", "Bitstream Vera Serif", Times, "Times New Roman", serif;
+  line-height: 1.375em;
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", "Droid Sans", "Bitstream Vera Sans", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.05em;
+  font-weight: bold;
+}
+
+/* line 17, ../src/screen.sass */
+
+/* line 20, ../src/screen.sass */
+h2 {
+  font-size: 2em;
+  line-height: 1.455em;
+}
+
+/* line 24, ../src/screen.sass */
+h3 {
+  font-size: 1.1em;
+  line-height: 1.4em;
+}
+
+/* line 28, ../src/screen.sass */
+h4 {
+  font-size: 1.6em;
+}
+
+/* line 31, ../src/screen.sass */
+h5 {
+  font-size: 1.2em;
+}
+
+/* line 34, ../src/screen.sass */
+h6 {
+  font-size: 1em;
+}
+
+a, a:link {
+  color: #64a329;
+  text-decoration: underline;
+}
+
+a:hover, a:link:hover, a:focus, a:link:focus {
+  color: #222;
+  text-decoration: none;
+}
+
+/* line 41, ../src/screen.sass */
+#wrapper {
+  width: 60%;
+  margin: 3em auto;
+}
+/* line 45, ../src/screen.sass */
+#wrapper header {
+  border-bottom: 2px dashed #e5e5e5;
+  padding: 0 20px 1.4em;
+  margin: 0;
+  zoom:1;
+
+}
+#wrapper header:after{
+  content:" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  visibility: hidden;
+  clear: both;
+  height:0 !important;
+  display: block;
+  line-height: 0;
+  font-size: xx-large;
+  overflow: hidden;
+}
+
+#wrapper header h1 {
+  float: left;
+  display: inline;
+  width: 45%;
+  color: #7DCC33;
+}
+
+#wrapper header h1 a {
+  text-decoration: none;
+  color: #7DCC33;
+}
+
+#wrapper header p {
+  float: left;
+  display: inline;
+  width: 55%;
+  margin: 0.5em 0 0;
+}
+
+#wrapper section {
+  padding: 2.8em 20px;
+  min-height: 22em;
+}
+
+#wrapper footer {
+  border-top: 2px dashed #e5e5e5;
+  padding: 1.4em 20px 0;
+  margin: 0 0 3em;
+}
+#wrapper footer p {
+  float: left;
+  display: inline;
+  width: 60%;
+  font-size: 0.9em;
+}
+
+#wrapper footer p.twitter {
+  float: left;
+  display: inline;
+  width: 40%;
+  text-align: right;
+}
